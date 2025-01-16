@@ -1,4 +1,4 @@
-#benchmarks/TACAS23_ABSYNTH/sprdwalk.imp.pgcl --invarianttype past --templaterefiner inductivity --distance 1 --initialstates "[x < n]"
+python3 -m cegispro2.cmd sprdwalk.imp.pgcl --invarianttype past --templaterefiner inductivity --distance 1 --initialstates "[x < n]"
 
 nat x;
 nat n;
