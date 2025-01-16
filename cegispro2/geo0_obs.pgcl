@@ -1,4 +1,3 @@
-# By memoryless property E[z] = z+4+3= z+7
 # python3 -m cegispro2.cmd geo0_obs.pgcl --post "z" --prop "[flip=0 & z=0]*7.008"
 # python3 -m cegispro2.cmd geo0_obs.pgcl --post "z" --prop "[flip=0 & z=0]*6.998" --invarianttype sub --cdb
 
